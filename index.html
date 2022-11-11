@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <heading>
+        <div class="div">
+            <h1>❤❤ WELCOME TO MY SLIDE SHOW ❤❤</h1>
+        </div>
+    </heading>
+    <main>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="image 1.jpg" alt="image 1-food" />
+                <div class="text">Food. Oh I love to eat. Come and join me</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="image 2.jpg" alt="image 2-just relax" />
+                <div class="text">
+                    Imagin relaxing in this cool room with low music at the background, a cup of coffe at the table, laptop in front of you. Think of what you can achive working in this enviroment.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="image 3.jpg" alt="image 3-coffee with me" />
+                <div class="text">Please come have a cup of coffee with me.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="image 4.jpg" alt="image 4-beach work" />
+                <div class="text">
+                    There is no sound as sweet as the sound of the sea. Becareful it can be adictive
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </main>
+
+    <footer>
+        Copy right @ ojnneji 2022
+    </footer>
+    <script src="index.js">
+    </script>
+
+</body>
+
+</html>
